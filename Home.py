@@ -30,7 +30,7 @@ with col2:
      # audio_file = open('Untitled.mp3', 'rb')
      # audio_bytes = audio_file.read()
      # st.audio(audio_bytes, format='audio/mp3')
-      st.audio("https://flat.io/score/632dcc40926c86001226b9e5-untitled")
+      st.audio("https://flat.io/score/632dcc40926c86001226b9e5-untitled.mp3")
     with tab2:
       st.subheader('N.A')
       st.write('N.A.')
