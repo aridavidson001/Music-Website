@@ -25,7 +25,7 @@ with col2:
     with tab1:
       st.subheader('Song 1')
       st.write("Audio file example")
-      audio_file = open("audio-sample.mp3", "rb")
+      audio_file = open("Symphone No.6(1st movement).mpe", "rb")
       st.audio(audio_file.read())
 
     with tab2:
