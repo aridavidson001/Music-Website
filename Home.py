@@ -25,7 +25,7 @@ with col2:
     with tab1:
       st.subheader('Song 1')
       st.write("Audio file example")
-     # audio_file = open("Simple March_top part.mp3", "rb")
+     # audio_file = open("Untitled.mp3", "rb")
      # st.audio(audio_file.read())
       audio_file = open('Simple March_top part.mp3', 'rb')
       audio_bytes = audio_file.read()
