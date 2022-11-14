@@ -30,7 +30,7 @@ with col2:
      # audio_file = open('Untitled.mp3', 'rb')
      # audio_bytes = audio_file.read()
      # st.audio(audio_bytes, format='audio/mp3')
-      st.audio("https://soundcloud.com/ajrbrothers/come-hang-out-1?si=44b46bf04b3c4b149c04d3e60c5ecd2f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
+      st.audio("https://soundcloud.com/ajrbrothers/come-hang-out-1")
     with tab2:
       st.subheader('N.A')
       st.write('N.A.')
