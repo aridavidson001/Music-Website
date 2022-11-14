@@ -25,7 +25,10 @@ with col2:
     with tab1:
       st.subheader('Song 1')
       st.write("Audio file example")
-      st.audio("https://drive.google.com/file/d/11yN6IWu-Sw9LBokVSUp-VJ5j31PIt9a0/view?usp=sharing")
+     # st.audio("https://drive.google.com/file/d/11yN6IWu-Sw9LBokVSUp-VJ5j31PIt9a0/view?usp=sharing")
+      st.write("## Audio file example")
+      audio_file = open("Untitled(1).wav", "rb")
+      st.audio(audio_file.read())
 
     with tab2:
       st.subheader('N.A')
